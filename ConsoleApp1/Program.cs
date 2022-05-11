@@ -19,6 +19,19 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("wrong!!");
             }
+
+            Console.WriteLine("What colour is the sky");
+            input = Console.ReadLine();
+
+            if (input == "blue")
+            {
+                Console.WriteLine("Correct");
+            }
+            else 
+            { 
+                Console.WriteLine("Wrong");
+            }
+
             Console.ReadLine();
         }
     }
