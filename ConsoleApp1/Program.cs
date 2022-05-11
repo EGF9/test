@@ -42,6 +42,17 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("that full");
             }
+            Console.WriteLine("Does 1 + 1 = 1?");
+            input = Console.ReadLine();
+
+            if (input == "y")
+            {
+                Console.WriteLine("Thats Incorrect");
+            }
+            else
+            {
+                Console.WriteLine("Good Stuff.");
+            }
             Console.ReadLine();
         }
     }
