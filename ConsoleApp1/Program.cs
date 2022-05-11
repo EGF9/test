@@ -31,7 +31,17 @@ namespace ConsoleApp1
             { 
                 Console.WriteLine("Wrong");
             }
+            Console.WriteLine("Do you like dog?");
+            input= Console.ReadLine();
 
+            if (input =="y")
+            {
+                Console.WriteLine("ok");
+            }
+            else
+            {
+                Console.WriteLine("that full");
+            }
             Console.ReadLine();
         }
     }
